@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LITLLE HEARTS SCHOOL</title>
+    <link rel="icon" href="pics/logo_2-removebg-preview.png">
+    <link rel="stylesheet" href="sch.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+
+    <body>
+      <header>
+
+        <!-- navbar -->
+          <section class="header">
+              <nav>
+                  <a href="index.html"><img src="pics/logo_2-removebg-preview.png" ></a>
+                  <div class="nav-links" id="navLinks">
+                      <i class="fa fa-times" onclick="hideMenu()"></i>
+                      <ul>
+                          <li><a href="sch.html">Home</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                  </div>
+                  <i class="fa fa-bars" onclick="showMenu()"></i>
+              </nav>
+              <!-- text box -->
+              <div class="text-box">
+                <h3>Bharataratna Sir M.V.Educational Society(R)</h3>
+                <h1>Little Hearts School</h1>
+                <a href="more.html" class="hero-btn">View for our facilities</a>
+              </div>
+            </section>
+          </header>
+          <!-- our Course -->
+          <section class="course">
+            <h1>Courses we offer</h1>
+            <div class="row">
+                <div class="course-col">
+                  <h3>Elementry </h3>
+                  <p>Grade<br>Baby-U.K.G</p>
+                </div>
+
+                <div class="course-col">
+                  <h3>Middle school</h3>
+                    <p>Grade <br>1 <sup>st</sup> -  7 <sup>th</sup>
+                </div>
+
+                <div class="course-col">
+                  <h3>High school</h3>
+                  <p>Grade <br>8<sup>th</sup> - SSLC</p>
+                </div>
+            </div>
+          </section>
+          <!-- our outgoing baches -->
+          <div class="image-slider">
+            <!-- Slider Container -->
+            <div class="slider-container">
+              <!-- Slides -->
+              <div class="slide active">
+                <img src="/new format/pics/2009-10.jpg" alt="Batch 2009-2010">
+                <div class="caption">Batch 2009-2010</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2010-11.jpg" alt="Batch 2010-2011">
+                <div class="caption">Batch 2010-2011</div>
+              </div>
+              <div class="slide">
+                <img src="pics/2011-12.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2011-2012</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2012-13.jpg" alt="Batch 2012-2013">
+                <div class="caption">Batch 2012-2013</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2013-14.jpg" alt="Batch 2013-2014">
+                <div class="caption">Batch 2013-2014</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2014-15.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2014-2015</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2016-17.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2015-2016</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2017-18.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2017-2018</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2018-19.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2018-2019</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2019-20.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2019-2020</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2020-21.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2020-2021</div>
+              </div>
+             
+              <div class="slide">
+                <img src="/new format/pics/2021-22.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2021-2022</div>
+              </div>
+              <div class="slide">
+                <img src="/new format/pics/2022-23.jpg" alt="Batch 2011-2012">
+                <div class="caption">Batch 2022-2023</div>
+              </div>
+             
+             
+             
+             
+             
+
+             
+
+             
+            </div>
+          
+            <!-- Navigation Arrows -->
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+          
+            <!-- Pagination Dots -->
+            <div class="pagination">
+              <span class="dot active" onclick="goToSlide(0)"></span>
+              <span class="dot" onclick="goToSlide(1)"></span>
+              <span class="dot" onclick="goToSlide(2)"></span>
+              <!-- Add more dots as needed -->
+            </div>
+          </div>          
+         <!-- students and staff -->
+         <body>
+          <section class="ssf">
+            <h1>Staff and Students in Numbers</h1>
+            <div class="card-group">
+              <!-- Students Card -->
+              <div class="card">
+                <img src="/new format/pics/stud.png" class="card-img-top" alt="Students">
+                <div class="card-body">
+                  <div class="counter student-count" data-count="1500"><h2>0</h2></div>
+                  <p>Number of Students</p>
+                </div>
+              </div>
+        
+              <!-- Teaching Staff Card -->
+              <div class="card">
+                <img src="/new format/pics/teach.png" class="card-img-top" alt="Teaching Staff">
+                <div class="card-body">
+                  <div class="counter teaching-staff-count" data-count="50"><h2>0</h2></div>
+                  <p>Number of Teaching Staff</p>
+                </div>
+              </div>
+        
+              <!-- Batches Completed Card -->
+              <div class="card">
+                <img src="/new format/pics/grad.png" class="card-img-top" alt="Batches Completed">
+                <div class="card-body">
+                  <div class="counter batch-count" data-count="14"><h2>0</h2></div>
+                  <p>Number of Batches Completed</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+      
+        <!-- footer -->
+        <section class="footer">
+          <h5>About Us</h5>
+          <p>We are providing Education Since @ 2003</p>
+          <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-instagram" ></i>
+           </div>
+        </section>
+        <!-- java script -->
+        
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+          <!-- -----script for nav bar -->
+          <script>
+          var navLinks= document.getElementById("navLinks");
+          
+          function showMenu(){
+              navLinks.style.left="0";
+          }
+          function hideMenu(){
+              navLinks.style.left="-200px";
+          } 
+       </script>
+<!-- script for outgoing baches -->
+ <script>let currentSlide = 0;
+  const slides = document.querySelectorAll('.slide');
+  const dots = document.querySelectorAll('.dot');
+  
+  // Function to show a specific slide
+  function showSlide(index) {
+    if (index >= slides.length) {
+      currentSlide = 0;
+    } else if (index < 0) {
+      currentSlide = slides.length - 1;
+    } else {
+      currentSlide = index;
+    }
+  
+    // Update slides
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === currentSlide);
+    });
+  
+    // Update dots
+    dots.forEach((dot, i) => {
+      dot.classList.toggle('active', i === currentSlide);
+    });
+  
+    // Move the slider container
+    const sliderContainer = document.querySelector('.slider-container');
+    sliderContainer.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+  
+  // Next Slide
+  function nextSlide() {
+    showSlide(currentSlide + 1);
+  }
+  
+  // Previous Slide
+  function prevSlide() {
+    showSlide(currentSlide - 1);
+  }
+  
+  // Go to a specific slide
+  function goToSlide(index) {
+    showSlide(index);
+  }
+  
+  // Autoplay (optional)
+  let autoplay = setInterval(nextSlide, 5000);
+  
+  // Pause autoplay on hover
+  const slider = document.querySelector('.image-slider');
+  slider.addEventListener('mouseenter', () => clearInterval(autoplay));
+  slider.addEventListener('mouseleave', () => {
+    autoplay = setInterval(nextSlide, 5000);
+  });
+ </script>
+
+                <!-------------script for ssf----------  -->
+  
+ <script>
+  // Function to start the counter
+function startCounter(elementClass) {
+  const counterElement = document.querySelector(`.${elementClass}`);
+  const finalCount = parseInt(counterElement.getAttribute('data-count'));
+  const increment = Math.ceil(finalCount / 100); // Adjust speed of counting
+  let currentCount = 0;
+
+  const counter = setInterval(() => {
+    if (currentCount < finalCount) {
+      currentCount += increment;
+      if (currentCount > finalCount) {
+        currentCount = finalCount; // Ensure it doesn't exceed the final count
+      }
+      counterElement.querySelector('h2').innerText = currentCount;
+    } else {
+      clearInterval(counter); // Stop the counter when done
+    }
+  }, 20); // Adjust interval for smoother/faster counting
+}
+
+// Function to check if the element is in view
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+// Function to handle scroll events
+function checkScroll() {
+  const counters = document.querySelectorAll('.counter');
+  counters.forEach(counter => {
+    if (isElementInViewport(counter)) {
+      const elementClass = counter.classList[1]; // Get the second class (e.g., student-count)
+      if (!counter.hasAttribute('data-started')) {
+        startCounter(elementClass);
+        counter.setAttribute('data-started', 'true'); // Mark as started
+      }
+    }
+  });
+}
+
+// Event listener for scroll
+window.addEventListener('scroll', checkScroll);
+
+// Initial check in case the elements are already in view
+checkScroll();
+
+
+
+
+
+
+function checkScroll() {
+  const counters = document.querySelectorAll('.counter');
+  counters.forEach(counter => {
+    if (isElementInViewport(counter)) {
+      counter.classList.add('visible'); // Make counter visible
+      const elementClass = counter.classList[1];
+      if (!counter.hasAttribute('data-started')) {
+        startCounter(elementClass);
+        counter.setAttribute('data-started', 'true');
+      }
+    }
+  });
+}
+
+
+
+ </script>
+    </body>
+    </html>
+    
